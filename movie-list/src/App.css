@@ -1,0 +1,84 @@
+.app {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'azeret mono';
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000; /* changed color to black */
+}
+
+.image {
+  width: 40%;
+  margin-left: 30%;
+  margin-bottom: -15%;
+  margin-top: -15%;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: #ea6e4d; /* changed color to red */
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: #000; /* changed color to black */
+}
+
+.movie-card {
+  border: 1px solid #ea6e4d; /* changed color to red */
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+.movie-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+.add-movie-form {
+  margin-top: 30px;
+}
+
+.add-movie-form h2 {
+  margin-bottom: 10px;
+  color: #ea6e4d;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ea6e4d;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ea6e4d; /* changed color to red */
+  color: #000; /* changed color to black */
+}
+
+button {
+  background-color: #ea6e4d; /* changed color to red */
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ea6e4d; /* changed color to red */
+}
